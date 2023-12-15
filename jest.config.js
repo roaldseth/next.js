@@ -6,7 +6,7 @@ const createJestConfig = nextJest()
 const customJestConfig = {
   testMatch: ['**/*.test.js', '**/*.test.ts', '**/*.test.tsx'],
   setupFilesAfterEnv: ['<rootDir>/jest-setup-after-env.ts'],
-  verbose: true,
+  verbose: false,
   rootDir: 'test',
   modulePaths: ['<rootDir>/lib'],
   transformIgnorePatterns: ['/next[/\\\\]dist/', '/\\.next/'],
